@@ -1,0 +1,68 @@
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    margin: 0;
+    background: #f5f6fa;
+    color: #222;
+}
+h1 {
+    text-align: center;
+    margin: 32px 0 32px 0;
+    font-weight: 700;
+    color: #444;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 24px;
+    margin-bottom: 40px;
+}
+.card {
+    background: #fff;
+    border-radius: 14px;
+    box-shadow: 0 2px 12px rgba(60,60,60,0.10);
+    width: 270px;
+    display: flex;
+    flex-direction: column;
+    transition: box-shadow 0.2s, transform 0.16s;
+}
+.card:hover {
+    box-shadow: 0 9px 30px rgba(0,0,0,0.13);
+    transform: translateY(-4px) scale(1.02);
+}
+.card img {
+    width: 100%;
+    height: 170px;
+    object-fit: cover;
+    border-bottom: 1px solid #eee;
+}
+.card-content {
+    padding: 16px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+.card-content h2 {
+    margin: 0 0 7px 0;
+    font-size: 20px;
+    color: #264653;
+    letter-spacing: 0.5px;
+}
+.tag {
+    display: inline-block;
+    margin: 2px 6px 2px 0;
+    padding: 3px 11px;
+    background: #e7f4ff;
+    color: #27728d;
+    border-radius: 12px;
+    font-size: 12px;
+    letter-spacing: 0.3px;
+}
+.recipe-info {
+    font-size: 13px;
+    margin-top: 8px;
+    color: #818181;
+}
+ul, ol {
+    padding-left: 20px;
+}
